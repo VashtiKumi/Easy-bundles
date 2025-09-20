@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybundles - Affordable Data Bundles</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <div class="logo-circle">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <h2>Easybundles</h2>
+            </div>
+            <div class="loading-animation">
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <p class="loading-text">Loading your data bundles...</p>
+            </div>
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content" class="main-content">
+        <div class="top-banner">
+            <p>We are open. For support call 0532838404. Thank you!</p>
+        </div>
+
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <span class="logo-text">Easybundles</span>
+                </div>
+                <nav class="nav">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#cart" class="nav-link">Cart <span id="cart-count" class="cart-count">0</span></a>
+                    <a href="#checkout" class="nav-link">Checkout</a>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <section class="hero">
+                    <h1>Affordable Data Bundle</h1>
+                    <p class="hero-subtitle">
+                        <i class="fas fa-star text-red-500"></i>
+                        Buy Affordable Data Bundle on MTN and AirtelTigo (AT) • Recipient number shouldn't owe Airtime • Doesn't work for Turbonet SIM
+                    </p>
+                </section>
+
+                <section class="services-grid">
+                    <div class="service-card" data-service="airtime">
+                        <div class="service-image airtime-bg">
+                            <div class="service-logos">
+                                <div class="logo-item airtel">airtel</div>
+                                <div class="logo-item mtn">MTN</div>
+                                <div class="logo-item telecel">telecel</div>
+                            </div>
+                        </div>
+                        <h3>Airtime</h3>
+                    </div>
+
+                    <div class="service-card" data-service="mtn">
+                        <div class="service-image mtn-bg">
+                            <div class="mtn-logo">MTN</div>
+                        </div>
+                        <h3>MTN</h3>
+                    </div>
+
+                    <div class="service-card" data-service="airteltigo">
+                        <div class="service-image airteltigo-bg">
+                            <div class="airteltigo-logo">
+                                <span class="airtel-part">airtel</span>
+                                <span class="tigo-part">tigo</span>
+                                <p class="tagline">life is simple.</p>
+                            </div>
+                        </div>
+                        <h3>AirtelTigo iShare</h3>
+                    </div>
+
+                    <div class="service-card" data-service="bigtime">
+                        <div class="service-image bigtime-bg">
+                            <div class="bigtime-content">
+                                <p class="family-text">One Big Family</p>
+                                <div class="bigtime-logos">
+                                    <span class="airtel-logo">airtel</span>
+                                    <span class="tigo-logo">tigo</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>AirtelTigo BigTime</h3>
+                    </div>
+
+                    <div class="service-card" data-service="telecel">
+                        <div class="service-image telecel-bg">
+                            <div class="telecel-logo">
+                                <div class="telecel-circle">t</div>
+                                <div class="telecel-text">telecel</div>
+                            </div>
+                        </div>
+                        <h3>Telecel</h3>
+                    </div>
+
+                    <div class="service-card" data-service="results">
+                        <div class="service-image results-bg">
+                            <div class="results-content">
+                                <div class="waec-badge">
+                                    <div class="waec-star">
+                                        <span class="waec-text">WAEC</span>
+                                    </div>
+                                    <div class="result-text">RESULT</div>
+                                    <div class="checker-text">CHECKER</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Results Checker</h3>
+                    </div>
+
+            
+                    <div class="service-card" data-service="netflix">
+                        <div class="service-image netflix-bg">
+                            <div class="netflix-logo">NETFLIX</div>
+                        </div>
+                        <h3>Netflix</h3>
+                    </div>
+
+                    <div class="service-card" data-service="amazon">
+                        <div class="service-image amazon-bg">
+                            <div class="amazon-logo">
+                                <span class="amazon-text">amazon</span>
+                                <span class="prime-text">Prime</span>
+                            </div>
+                        </div>
+                        <h3>Amazon Prime</h3>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Easybundles.com</p>
+            </div>
+        </footer>
+
+       
+        <div id="cart-sidebar" class="cart-sidebar">
+            <div class="cart-header">
+                <h3>Shopping Cart</h3>
+                <button id="close-cart" class="close-cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <p class="empty-cart">Your cart is empty</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <strong>Total: GH₵<span id="cart-total">0.00</span></strong>
+                </div>
+                <button id="checkout-btn" class="checkout-btn" disabled>
+                    Proceed to Checkout
+                </button>
+            </div>
+        </div>
+
+        <div id="service-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title">Select Package</h3>
+                    <button id="close-modal" class="close-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                </div>
+            </div>
+        </div>
+
+        <div id="overlay" class="overlay"></div>
+
+        <div class="callback-btn">
+            <button id="callback-request">
+                <i class="fas fa-phone"></i>
+                Request Callback
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
